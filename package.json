@@ -4,7 +4,9 @@
 	"description": "Elegant terminal spinner",
 	"license": "MIT",
 	"repository": "sindresorhus/ora",
-	"funding": "https://github.com/sponsors/sindresorhus",
+	"funding": {
+		"url": "https://github.com/sponsors/sindresorhus"
+	},
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -50,6 +52,7 @@
 		"@types/node": "^14.14.16",
 		"ava": "^2.4.0",
 		"get-stream": "^6.0.0",
+		"transform-tty": "^1.0.10",
 		"tsd": "^0.14.0",
 		"xo": "^0.36.1"
 	}
